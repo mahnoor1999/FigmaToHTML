@@ -1,0 +1,36 @@
+/* Fonts Import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400&display=swap"); /* COLOR VARIABLES */
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Hero Section Eclipse Background*/
+.hero-rounded-bg {
+  height: 180vh;
+}
+.hero-rounded-bg div:first-child {
+  background: transparent linear-gradient(338deg, #c19eff 0%, #b78ff900 93%) 0%
+    0% no-repeat padding-box;
+  clip-path: circle(42.8% at 65% 39%);
+}
+.hero-rounded-bg div:first-child:hover {
+  background: transparent linear-gradient(338deg, #c19eff 0%, #b78ff900 93%) 0%
+    0% no-repeat padding-box;
+  clip-path: circle(42.8% at 65% 39%);
+}
+.hero-rounded-bg div:nth-child(2) {
+  background: transparent linear-gradient(338deg, #b78ff900 0%, #c19eff 100%) 0%
+    0% no-repeat padding-box;
+  clip-path: circle(43.2% at 75% 75%);
+  width: 93%;
+}
